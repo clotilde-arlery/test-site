@@ -54,6 +54,8 @@ else {
   main.style.minHeight = `${window.innerHeight}px`;
 } */
 
+main.style.maxHeight = `${window.innerHeight}px`;
+
 // GSAP Animation
 
 let timeline = gsap.timeline();
