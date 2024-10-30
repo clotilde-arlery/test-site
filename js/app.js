@@ -56,7 +56,7 @@ else {
 } */
 
 main.style.maxHeight = `${window.innerHeight}px`;
-moto.style.top = `${(window.innerHeight - 0.1*window.innerHeight) - 5}px`;
+moto.style.top = `${(window.innerHeight - 0.1*window.innerHeight)}px`;
 //moto.bottom
 // GSAP Animation
 
