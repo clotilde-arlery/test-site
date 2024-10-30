@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clotilde Arléry</title>
+  <title>Parallax Website Tutorial</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,8 +13,7 @@
 <body>
   <header class="hide">
     <nav>
-      <div class="logo"><a href="#">C. Arléry</a></div>  
-      <!-- <img src="img/logo.png" alt="Travelo" class="logo"> -->
+      <h3 class="logo">C.&nbsp;Arléry</h3>
       <ul>
         <li>
           <a href="#">Projets</a>
@@ -32,9 +31,9 @@
           <a href="#">A propos</a>
         </li>
         <li class="coffee">
-          
-          <i style="color: #fff;" class="fa-solid fa-mug-hot"></i>
-          
+          <a href="#">
+            <i class="fa-solid fa-mug-hot" style="color: #ffffff;"></i>
+          </a>
         </li>
         
       </ul>
@@ -42,16 +41,6 @@
   </header>
 
   <main>
-    <section class="lg-device">
-        <div class="darkfull"></div>
-    <div class="constant-blur">
-        <!-- <img src="./assets/img/constant-blur.jpg" alt=""> -->
-         
-    </div>
-    <div class="sub-text">
-        <p class="sub-text1">agir pour le changement - Apprendre chaque jour - Créer toujours - se passionner enfin</p>
-        <p class="sub-text2">Partager</p>
-    </div>
     <div class="vignette hide"></div>
     <img src="img/background.png" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0"
       data-distance="-200" class="parallax bg-img">
@@ -69,15 +58,10 @@
       data-distance="1900" class="parallax fog-5">
     <img src="img/mountain_7.png" data-speedx="0.1" data-speedy="0.1" data-speedz="0" data-rotation="0.09"
       data-distance="2000" class="parallax mountain-7">
-      <div class="bg-text parallax" data-speedx="0.07" data-speedy="0.07" data-speedz="0" data-rotation="0.11">
-        <!-- <h2>changement</h2> -->
-        <!-- <h1>Bienvenue</h1> -->
-      </div>
     <div class="text parallax" data-speedx="0.07" data-speedy="0.07" data-speedz="0" data-rotation="0.11">
       <h2>"La seule constante dans la nature</h2>
-      <h1>c'est le changement&nbsp;" &mdash; Héraclès</h1>
+      <h1>c'est le changement&nbsp;" &mdash;&nbsp;Héraclès</h1>
     </div>
-    
     <img src="img/mountain_6.png" data-speedx="0.065" data-speedy="0.05" data-speedz="0.05" data-rotation="0.12"
       data-distance="2300" class="parallax mountain-6">
     <img src="img/fog_4.png" data-speedx="0.135" data-speedy="0.04" data-speedz="0" data-rotation="0"
@@ -100,24 +84,16 @@
     <img src="img/black_shadow.png" class="black-shadow hide">
     <img src="img/fog_1.png" data-speedx="0.12" data-speedy="0.01" data-speedz="0" data-rotation="0"
       data-distance="4200" class="parallax fog-1">
-    </section>
-    <section class="sm-device">
-        <div class="darkfull"></div>
-        <div class="constant-blur">
-            <!-- <img src="./assets/img/constant-blur.jpg" alt=""> -->
-             
-        </div>
-        <div class="sub-text">
-            <p class="sub-text1">agir pour le changement - Apprendre chaque jour - Créer toujours - se passionner enfin</p>
-            <p class="sub-text2">Partager</p>
-        </div>
-        <div class="text-sm">
-            <h2>"La seule constante dans la nature</h2>
-            <h1>c'est le changement&nbsp;" &mdash; Héraclès</h1>
-        </div>
-    </section>
+    <div class="dark-filter"></div>  
+    <div class="constant-blur"></div>
+    <div class="moto">
+      <p class="moto-kd1">agir pour le changement - Apprendre chaque jour - Créer toujours - se passionner enfin</p>
+      <p class="moto-kd2">Partager</p>
+    </div>
   </main>
+  <section class="sec-anim">
 
+  </section>
 
   <script src="js/gsap.min.js"></script>
   <script src="js/app.js" defer></script>
