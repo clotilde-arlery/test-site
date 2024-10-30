@@ -4,6 +4,7 @@
 
 const parallax_el = document.querySelectorAll(".parallax");
 const main = document.querySelector("main");
+const moto = document.querySelector("#moto");
 
 let xValue = 0,
   yValue = 0;
@@ -55,7 +56,8 @@ else {
 } */
 
 main.style.maxHeight = `${window.innerHeight}px`;
-
+moto.style.top = `${window.innerHeight - 0.1*window.innerHeight}px`;
+//moto.bottom
 // GSAP Animation
 
 let timeline = gsap.timeline();

@@ -311,7 +311,7 @@ main {
   font-size: clamp(30px, 5vw, 68px);
   overflow: visible;
 }
-.moto{
+#moto{
   position: absolute;
   z-index: 25;
   top: 90%;
@@ -604,9 +604,6 @@ main {
     padding: 0 1.8rem;
   }
 
-  .moto{
-    top: 80%;
-  }
 }
 
 @media (max-width: 520px) {

@@ -306,7 +306,7 @@ main {
   overflow: visible;
 }
 
-.moto {
+#moto {
   position: absolute;
   z-index: 25;
   top: 90%;
@@ -539,8 +539,5 @@ main {
   .coffee a {
     font-size: 0.85rem;
     padding: 0 1.8rem;
-  }
-  .moto {
-    top: 80%;
   }
 }/*# sourceMappingURL=style.css.map */
