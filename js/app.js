@@ -1,6 +1,6 @@
-window.addEventListener('resize', function() {
+/* window.addEventListener('resize', function() {
   location.reload();
-});
+}); */
 
 const parallax_el = document.querySelectorAll(".parallax");
 const main = document.querySelector("main");
