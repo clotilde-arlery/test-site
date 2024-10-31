@@ -137,7 +137,7 @@ main {
   width: 100vw;
   max-height: 100vh;
   overflow: hidden;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
 }
 
 .parallax {
@@ -393,7 +393,7 @@ main {
 
 /* ========= Section 2 ============ */
 .sec-anim {
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   width: 100vw;
   height: 100vh;
   background-color: red;
