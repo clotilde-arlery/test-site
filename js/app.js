@@ -44,16 +44,6 @@ window.addEventListener("mousemove", (e) => {
   update(e.clientX);
 });
 
-/* if (window.innerWidth >= 725 && window.innerWidth <= 1100) {
-  main.style.maxHeight = `${window.innerWidth * 1.1}px`;
-  // main.style.maxHeight = `${window.innerWidth * 2}px`;
-} else if (window.innerWidth >= 1100) {
-  main.style.maxHeight = `${window.innerWidth * 0.6}px`;
-}
-else {
-  // main.style.maxHeight = `${window.innerWidth * 10}px`;
-  main.style.minHeight = `${window.innerHeight}px`;
-} */
 
 main.style.maxHeight = `${window.innerHeight}px`;
 moto.style.top = `${(window.innerHeight - 0.2*window.innerHeight)}px`;

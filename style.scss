@@ -19,7 +19,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+.scroll-snap-container{
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type : y mandatory;
+}
 ::selection {
   background-color: #0b372dbb;
 }
@@ -70,8 +75,52 @@ header ul a {
 .coffee a {
   font-size: 1.05rem;
   padding: 0 1.5rem;
+  pointer-events: none;
 }
-
+.hideOnLgDevice{
+  display: none;
+}
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 35;
+  background: #ffffff67;
+  //border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(13.3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .sidebar li{
+  width: 50%;
+} */
+.sidebar li a{
+  color: #333;
+  font-size: clamp(22px, 3rem, 26px);
+}
+.sidebar li a:hover{
+  color: #666;
+}
+.closeBarsContainer{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.closeBarsContainer a{
+  padding: 0;
+  margin-right: 15px;
+}
+.closeBars{
+  font-size: 28px;
+  width: 40px;
+}
 
 main {
   position: relative;
@@ -79,6 +128,7 @@ main {
   width: 100vw;
   max-height: 100vh;
   overflow: hidden;
+  scroll-snap-align: center;
 }
 
 .parallax {
@@ -336,6 +386,7 @@ main {
 }
 /* ========= Section 2 ============ */
 .sec-anim {
+  scroll-snap-align: center;
   width: 100vw;
   height: 100vh;
   background-color: red;
@@ -584,7 +635,15 @@ main {
     height: 89.86%;
   }
 }
+@media (max-width: 850px){
+  .hideOnSmDevice{
+    display: none;
+  }
+  .hideOnLgDevice{
+    display: block;
+  }
 
+}
 @media (max-width: 725px) {
   header nav {
     padding: 0 1rem;
