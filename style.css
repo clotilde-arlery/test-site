@@ -496,7 +496,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 4%;
+  padding: 3.5%;
   color: #fff;
   position: relative;
 }
