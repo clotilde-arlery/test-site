@@ -590,6 +590,7 @@ main {
   color: #fff;
   font-size: 12px;
   padding: 10px 20px;
+  align-self: center;
   pointer-events: auto;
   cursor: pointer;
 }
