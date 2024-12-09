@@ -592,7 +592,7 @@ main {
   padding: 10px 20px;
   pointer-events: auto;
   cursor: pointer;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 /* ========= Responsive queries ========*/
