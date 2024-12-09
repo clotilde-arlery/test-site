@@ -592,7 +592,7 @@ main {
   padding: 10px 20px;
   pointer-events: auto;
   cursor: pointer;
-  min-width: 50px;
+  min-width: 100px;
 }
 
 /* ========= Responsive queries ========*/
