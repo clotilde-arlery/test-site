@@ -462,6 +462,7 @@ main {
 .p-headings h3 {
   position: absolute;
   z-index: 30;
+  max-height: 120px;
   min-height: 118px;
   left: 50%;
   transform: translateX(-50%);
