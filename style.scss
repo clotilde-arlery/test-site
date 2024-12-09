@@ -565,6 +565,7 @@ main {
   padding: 10px 20px;
   pointer-events: auto;
   cursor: pointer;
+  overflow-y: hidden;
 }
 /* ========= Responsive queries ========*/
 @media (max-width: 1570px) {
