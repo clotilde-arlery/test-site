@@ -451,6 +451,7 @@ main {
   font-family: "Poppins", sans-serif;
   width: 100vw;
   max-height: 130px;
+  min-height: 118px;
   height: 7vh;
   overflow-y: visible;
   margin-top: 100px;
