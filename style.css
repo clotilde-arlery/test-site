@@ -453,7 +453,7 @@ main {
   max-height: 130px;
   height: 7vh;
   min-height: 120px;
-  margin-top: 100px;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -462,7 +462,7 @@ main {
 .p-headings h3 {
   position: absolute;
   z-index: 30;
-  min-height: 118px;
+  /*min-height: 118px;*/
   left: 50%;
   transform: translateX(-50%);
   font-size: 118px;
