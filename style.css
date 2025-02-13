@@ -686,6 +686,7 @@ main {
   align-items: center;
   width: 200px;
   margin-top: 50px;
+  overflow-y: hidden;
 }
 
 .cards-content li img {
