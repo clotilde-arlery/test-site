@@ -660,7 +660,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 10vh;
   width: 100vw;
   color: #fff;
