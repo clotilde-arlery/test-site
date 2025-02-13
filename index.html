@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clotilde Arléry</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hide">
+    <nav>
+      <h3 class="logo">C.&nbsp;Arléry</h3>
+      <ul class="hideOnSmDevice">
+        <li>
+          <a href="#">Projets</a>
+        </li>
+        <li>
+          <a href="#">Expérience</a>
+        </li>
+        <li>
+          <a href="#">Compétences</a>
+        </li>
+        <li>
+          <a href="#">Articles</a>
+        </li>
+        <li>
+          <a href="#">A propos</a>
+        </li>
+        <li class="coffee">
+          <a href="#">
+            <i class="fa-solid fa-mug-hot" style="color: #ffffff;"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="hideOnLgDevice" onclick=showSidebar()>
+        <a href="#"><i class="fa-solid fa-bars" style="color: #fff;"></i></a>
+      </div>
+    </nav>
+    <div class="responsive-nav">
+      <ul class="sidebar">
+        <li class="closeBarsContainer" onclick=hideSidebar()>
+          <a href="#">
+            <i class="fa-solid fa-xmark closeBars" style="color: #333;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">Projets</a>
+        </li>
+        <li>
+          <a href="#">Expérience</a>
+        </li>
+        <li>
+          <a href="#">Compétences</a>
+        </li>
+        <li>
+          <a href="#">Articles</a>
+        </li>
+        <li>
+          <a href="#">A propos</a>
+        </li>
+        <li class="coffee">
+          <a href="#">
+            <i class="fa-solid fa-mug-hot" style="color: #333;"></i>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </header>
+  <div class="scroll-snap-container">
+    <main>
+      <div class="vignette hide"></div>
+      <img src="img/background.png" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0"
+        data-distance="-200" class="parallax bg-img">
+      <img src="img/fog_7.png" data-speedx="0.27" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="850"
+        class="parallax fog-7">
+      <img src="img/mountain_10.png" data-speedx="0.195" data-speedy="0.305" data-speedz="0" data-rotation="0"
+        data-distance="1100" class="parallax mountain-10">
+      <img src="img/fog_6.png" data-speedx="0.25" data-speedy="0.28" data-speedz="0" data-rotation="0"
+        data-distance="1400" class="parallax fog-6">
+      <img src="img/mountain_9.png" data-speedx="0.125" data-speedy="0.155" data-speedz="0.15" data-rotation="0.02"
+        data-distance="1700" class="parallax mountain-9">
+      <img src="img/mountain_8.png" data-speedx="0.1" data-speedy="0.11" data-speedz="0" data-rotation="0.02"
+        data-distance="1800" class="parallax mountain-8">
+      <img src="img/fog_5.png" data-speedx="0.16" data-speedy="0.105" data-speedz="0" data-rotation="0"
+        data-distance="1900" class="parallax fog-5">
+      <img src="img/mountain_7.png" data-speedx="0.1" data-speedy="0.1" data-speedz="0" data-rotation="0.09"
+        data-distance="2000" class="parallax mountain-7">
+      <div class="text parallax" data-speedx="0.07" data-speedy="0.07" data-speedz="0" data-rotation="0.11">
+        <h2>"La seule constante dans la nature</h2>
+        <h1>c'est le changement&nbsp;" &mdash;&nbsp;Héraclès</h1>
+      </div>
+      <img src="img/mountain_6.png" data-speedx="0.065" data-speedy="0.05" data-speedz="0.05" data-rotation="0.12"
+        data-distance="2300" class="parallax mountain-6">
+      <img src="img/fog_4.png" data-speedx="0.135" data-speedy="0.04" data-speedz="0" data-rotation="0"
+        data-distance="2400" class="parallax fog-4">
+      <img src="img/mountain_5.png" data-speedx="0.08" data-speedy="0.03" data-speedz="0.13" data-rotation="0.1"
+        data-distance="2550" class="parallax mountain-5">
+      <img src="img/fog_3.png" data-speedx="0.11" data-speedy="0.018" data-speedz="0" data-rotation="0"
+        data-distance="2800" class="parallax fog-3">
+      <img src="img/mountain_4.png" data-speedx="0.059" data-speedy="0.024" data-speedz="0.35" data-rotation="0.14"
+        data-distance="3200" class="parallax mountain-4">
+      <img src="img/mountain_3.png" data-speedx="0.04" data-speedy="0.018" data-speedz="0.32" data-rotation="0.05"
+        data-distance="3400" class="parallax mountain-3">
+      <img src="img/fog_2.png" data-speedx="0.15" data-speedy="0.0115" data-speedz="0" data-rotation="0"
+        data-distance="3600" class="parallax fog-2">
+      <img src="img/mountain_2.png" data-speedx="0.0235" data-speedy="0.013" data-speedz="0.42" data-rotation="0.15"
+        data-distance="3800" class="parallax mountain-2">
+      <img src="img/mountain_1.png" data-speedx="0.027" data-speedy="0.018" data-speedz="0.53" data-rotation="0.2"
+        data-distance="4000" class="parallax mountain-1">
+      <img src="img/sun_rays.png" class="sun-rays hide">
+      <img src="img/black_shadow.png" class="black-shadow hide">
+      <img src="img/fog_1.png" data-speedx="0.12" data-speedy="0.01" data-speedz="0" data-rotation="0"
+        data-distance="4200" class="parallax fog-1">
+      <div class="dark-filter"></div>  
+      <div class="constant-blur"></div>
+      <div id="moto">
+        <p class="moto-kd1">agir pour le changement - Apprendre chaque jour - Créer toujours - se passionner enfin</p>
+        <p class="moto-kd2">Partager</p>
+      </div>
+    </main>
+    <section class="sec-projets">
+      <div class="constant-blur2"></div>
+      <img class="plante1" src="./assets/img/plante1.png">
+      <!-- <img class="plante2" src="./assets/img/plante2.png"> -->
+      
+      <div class="projets">
+          <div class="p-headings">
+            <h3>Projects</h3>
+            <h2>Projets</h2>
+          </div>
+          <div class="proj-container">
+            <div class="proj-disclaimer">
+                <h4>Apprendre c'est bien, passer à l'acte c'est mieux : les projets font grandir autant que le savoir. </h4>
+                <p>Ce n’est un secret pour personne, je suis une passionnée. Mais je crois que cette passion m’anime à partir du moment où elle prend la forme de quelque chose qui peut réellement changer les choses. Bien sûr, la beauté intrinsèque de l’informatique théorique, des maths qui se cachent derrière chaque modèle de deep learning ou encore les mécanismes de la génétique ne me laissent pas indifférente. Mais la vraie magie surgit lorsque ces savoirs laissent entrevoir des problématiques bien concrètes avec un vrai pouvoir d’impacte. </p>
+            </div>
+            <div class="proj-featured">
+                  <a href="#">
+                    <div class="proj-elm-img"><img src="./assets/img/elec.svg" alt=""></div>
+                    <div class="proj-elm-excerpt">
+                      <h3>This is the first project !!</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo tincidunt magna ac fringilla.</p>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="proj-elm-img"><img src="./assets/img/elec.svg" alt=""></div>
+                    <div class="proj-elm-excerpt">
+                      <h3>This is the first project !!</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo tincidunt magna ac fringilla.</p>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="proj-elm-img"><img src="./assets/img/elec.svg" alt=""></div>
+                    <div class="proj-elm-excerpt">
+                      <h3>This is the first project !!</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo tincidunt magna ac fringilla.</p>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="proj-elm-img"><img src="./assets/img/elec.svg" alt=""></div>
+                    <div class="proj-elm-excerpt">
+                      <h3>This is the first project !!</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo tincidunt magna ac fringilla.</p>
+                    </div>
+                  </a>
+                  
+                  <button class="see-all-btn" href="#">
+                    Voir plus
+                  </button>
+                  
+                  
+            </div>
+          </div>
+      </div>
+      <div class="plantes-layer2">
+        <img class="plante3" src="./assets/img/plante3.png" alt="">
+      </div>
+    </section>
+    <section class="sec-competances">
+      <div class="constant-blur2 comp-blur" ></div>
+      <div class="p-headings">
+        <h3 class="comp-h3">Skill set</h3>
+        <h2>Compétances</h2>
+      </div>
+      <div class="marquee-text fadeout-horizontal">
+        <ul class="competances-content">
+          <li>Montage vidéo</li>
+          <li>Complexité algorithmique</li>
+          <li>Deep Learning</li>
+          <li>Développpement web</li>
+          <li>Modélisation 3D</li>
+          <li>Biologie</li>
+          <li>Informatique fondamentale</li>
+          <li>Génétique</li>
+          <li>Electronique</li>
+          <li>Développement durable</li>
+          <li>Energie</li>
+          <li aria-hidden="true">Montage vidéo</li>
+          <li aria-hidden="true">Complexité algorithmique</li>
+          <li aria-hidden="true">Deep Learning</li>
+          <li aria-hidden="true">Développpement web</li>
+          <li aria-hidden="true">Modélisation 3D</li>
+          <li aria-hidden="true">Biologie</li>
+          <li aria-hidden="true">Informatique fondamentale</li>
+          <li aria-hidden="true">Génétique</li>
+          <li aria-hidden="true">Electronique</li>
+          <li aria-hidden="true">Développement durable</li>
+          <li class="comp-last-elm">Energie</li>
+        </ul>
+      </div>
+      <div class="marquee-cards">
+        <ul class="cards-content">
+          <li class="comp-last-elm"><img src="./assets/img/python.svg" alt=""><p>Python</p></li>
+          <li><img src="./assets/img/js.svg" alt=""><p>Javascript</p></li>
+          <li><img src="./assets/img/php.svg" alt=""><p>PHP</p></li>
+          <li><img src="./assets/img/django.svg" alt=""><p>Django</p></li>
+          <li><img src="./assets/img/threejs.svg" alt=""><p>Three.js</p></li>
+          <li><img src="./assets/img/tensorflow.svg" alt=""><p>Tensorflow</p></li>
+          <li><img src="./assets/img/fastapi.svg" alt=""><p>FastAPI</p></li>
+          <li><img src="./assets/img/react.svg" alt=""><p>React</p></li>
+          <li><img src="./assets/img/git.svg" alt=""><p>Git</p></li>
+          <li><img src="./assets/img/arduino.svg" alt=""><p>Arduino</p></li>
+          <li><img src="./assets/img/photoshop.svg" alt=""><p>Photoshop</p></li>
+          <li><img src="./assets/img/davinciresolve.svg" alt=""><p>Da Vinci Resolve</p></li>
+          <li><img src="./assets/img/blender.svg" alt=""><p>Blender</p></li>
+        </ul>
+      </div>
+      <div class="marquee-cards">
+        <ul class="cards-content2">
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+
+  <script src="js/gsap.min.js"></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/nav.js" ></script>
+</body>
+
+</html>
